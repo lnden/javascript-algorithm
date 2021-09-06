@@ -1,0 +1,36 @@
+{
+  "name": "javascript-algorithm",
+  "version": "1.0.0",
+  "description": "javascript algorithm and data structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "npm run test -- --coverage",
+    "lint": "eslint ./src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnden/javascript-algorithm.git"
+  },
+  "keywords": [
+    "javascript",
+    "algorithm",
+    "data-structure"
+  ],
+  "author": "lnden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnden/javascript-algorithm/issues"
+  },
+  "homepage": "https://github.com/lnden/javascript-algorithm#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.1",
+    "jest": "^27.1.0"
+  }
+}

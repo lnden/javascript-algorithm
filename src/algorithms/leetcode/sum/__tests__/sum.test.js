@@ -1,5 +1,11 @@
-const sum = require('../sum');
+import { twoSum, twoSumHash } from '../sum';
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('use the brute force method', () => {
+  expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
+  expect(twoSum([2, 7, 11, 15], 10)).toEqual([]);
+});
+
+test('use the hash map method', () => {
+  expect(twoSumHash([2, 7, 11, 15], 9)).toEqual([0, 1]);
+  expect(twoSumHash([2, 7, 11, 15], 10)).toEqual([]);
 });
